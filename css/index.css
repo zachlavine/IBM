@@ -1,0 +1,777 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-18 09:14:35
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-21 17:56:12
+*/
+html, body, .wrap {
+    height: 100%;
+}
+.swiper-container {
+    background-color: skyblue;
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-next {
+    background: url(../images/swiper-button-next.png) center center no-repeat;
+    background-size: 100%;
+    left: 45%;
+    top: 93%;
+    width: 11.5%;
+    height: 2.21rem;
+}
+.first {
+    width: 100%;
+    height: 100%;
+    background: url(../images/first.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.second, .third {
+    background: url(../images/second.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.fourth, .fifth, .sixth {
+    background: url(../images/third.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.seventh, .eight {
+    background: url(../images/fourth.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+.nineth {
+    background: url(../images/fifth.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+/*第一屏*/
+.first .top em {
+    display: block;
+    float: left;
+    margin-top: 5.04rem;
+    margin-left: 6%;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+}
+.first .top strong {
+    display: block;
+    float: left;
+    margin-top: 3.92rem;
+    margin-left: 3.1%;
+    font-size: 2.92rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #b4c42f;
+}
+.first .top span {
+    display: block;
+    float: left;
+    margin-top: 3.92rem;
+    margin-left: 1.5%;
+    font-size: 2.92rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #f3c631;
+}
+.first .bottom em {
+    display: block;
+    float: left;
+    margin-top: 1.38rem;
+    margin-left: 43.1%;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: white;
+}
+.first .bottom strong {
+    display: block;
+    float: left;
+    margin-top: 0.33rem;
+    margin-left: 3.1%;
+    font-size: 2.92rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #b4c42f;
+}
+.first .bottom span {
+    display: block;
+    float: left;
+    margin-top: 0.33rem;
+    margin-left: 1.5%;
+    font-size: 2.92rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #f3c631;
+}
+.first .title em:nth-child(1) {
+    display: block;
+    float: left;
+        margin-left: 20%;
+    margin-top: 1.67rem;
+    font-size: 0.83rem;
+    font-family: 微软雅黑 Regular;
+    color: white;
+    letter-spacing: 3px;
+}
+.first .title em:nth-child(2) {
+    display: block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 1.67rem;
+    font-size: 0.83rem;
+    font-family: 微软雅黑 Bold;
+    color: white;
+    letter-spacing: 3px;
+}
+.first .section em:nth-child(1) {
+    display: block;
+    float: left;
+    margin-left: 12%;
+    margin-top: 3.04rem;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.17rem;
+    font-weight: bold;
+    color: white;
+}
+.first .section em:nth-child(2) {
+    display: block;
+    float: left;
+    margin-left: 12%;
+    margin-top: 1.25rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    font-size: 1.08rem;
+    color: #b4c42f;
+}
+.first .section em:nth-child(3) {
+    display: block;
+    float: left;
+    margin: 1.25rem 12% 0;
+    font-family: 微软雅黑 Regular;
+    font-size: 0.92rem;
+    color: white;
+    line-height: 2.1rem;
+}
+.first .section span {
+    color: #b4c42f;
+}
+.first .section em:nth-child(4) {
+    display: block;
+    float: left;
+    margin-left: 12%;
+    margin-top: 1.25rem;
+    font-family: 微软雅黑 Regular;
+    font-weight: bold;
+    font-size: 0.92rem;
+    color: white;
+}
+
+/*第二屏*/
+.second .top em {
+    display: block;
+    float: left;
+    margin-top: 2.54rem;
+    margin-left: 6%;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+.second .top strong {
+    display: block;
+    float: left;
+    margin-top: 1.92rem;
+    margin-left: 3.1%;
+    font-size: 1.67rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #b4c42f;
+}
+.second .top span {
+    display: block;
+    float: left;
+    margin-top: 1.92rem;
+    margin-left: 1%;
+    margin-right: 60%;
+    font-size: 1.67rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #f3c631;
+}
+.second .bottom em {
+    display: block;
+    float: left;
+    margin-top: 0.71rem;
+    margin-left: 17%;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+.second .bottom strong {
+    display: block;
+    float: left;
+    margin-top: 0.33rem;
+    margin-left: 3.1%;
+    font-size: 1.67rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #b4c42f;
+}
+.second .bottom span {
+    display: block;
+    float: left;
+    margin-top: 0.33rem;
+    margin-left: 1%;
+    margin-right: 30%;
+    font-size: 1.67rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    color: #f3c631;
+}
+.second .title em:nth-child(1) {
+    display: block;
+    float: left;
+    margin-left: 18%;
+    margin-top: 1.13rem;
+    font-size: 0.1rem;
+    font-family: 微软雅黑 Regular;
+    color: white;
+}
+.second .title em:nth-child(2) {
+    display: block;
+    float: left;
+    width: 67%;
+    margin-top: 1.13rem;
+    margin-left: 2%;
+    font-size: 0.1rem;
+    font-family: 微软雅黑 Bold;
+    color: white;
+    letter-spacing: 3px;
+}
+.second .section em:nth-child(1) {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1.5rem;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.17rem;
+    font-weight: bold;
+    color: white;
+}
+.second .section em:nth-child(2) {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1.25rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    font-size: 1.08rem;
+    color: #ffdf89;
+}
+.second .section em:nth-child(3) {
+    display: block;
+    float: left;
+    margin: 1.25rem 10% 0;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.08rem;
+    color: white;
+    font-weight: bold;
+    line-height: 2.1rem;
+    letter-spacing: 2px;
+}
+.second .section span {
+    color: #ffc428;
+}
+.second .section em:nth-child(4) {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1.25rem;
+    font-family: 微软雅黑 Bold;
+    font-weight: bold;
+    font-size: 1.08rem;
+    color: white;
+}
+.second .article {
+    float: left;
+    height: 8.54rem;
+    width: 100%;
+}
+.second .article a {
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0.67rem;
+    width: 20%;
+    height: 6.5rem;
+    background: url("../images/people.png") center center no-repeat;
+    background-size: 100% 100%;
+}
+.second .article em {
+    display: block;
+    float: left;
+    line-height: 1.5rem;
+    margin-top: 1.42rem;
+    margin-left: 5%;
+    width: 58%;
+    height: 7.67rem;
+    font-family: 微软雅黑 Regular;
+    font-size: 1rem;
+    color: white;
+}
+.second .apply {
+    float: left;
+    width: 70%;
+    height: 6.17rem;
+    border:2px dashed white;
+    margin-left: 15%;
+    border-radius: 6%;
+}
+.second .apply em {
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 微软雅黑 Regular;
+    font-size: 0.83rem;
+    color: white;
+}
+
+/* 第三屏 */
+.third h2 {
+    float: left;
+    width: 100%;
+    margin: 3.42rem 0 0.63rem 7%;
+    font-family: 微软雅黑 Bold;
+    font-size: 1rem;
+    color: white;
+}
+.third .main, .third tr, .third th {
+    border: 1px solid white;
+    text-align: left;
+    line-height: 1rem;
+    font-family: 微软雅黑 Regular;
+    font-size: 0.63rem;
+}
+.third .main {
+    float: left;
+    margin: 0 6%;
+    width: 88%;
+    height: 15.08rem;
+    background-color: #c7e9ee;
+}
+.third tr:nth-child(1) {
+    background-color: #fff01d;
+    font-weight: bold;
+    height: 3rem;
+}
+.third tr:nth-child(7), .third tr:nth-child(13), .third th:nth-child(13), .third th:nth-child(24) {
+    /*border: none;
+    border-collapse:collapse;*/
+    font-weight: bold;
+    text-align: center;
+}
+.third .footer em {
+    float: left;
+    width: 88%;
+    margin: 1rem 0 0.63rem 7%;
+    font-family: 微软雅黑 Bold;
+    font-size: 1rem;
+    color: white;
+}
+
+/*第四屏*/
+.fourth .top {
+    float: left;
+    width: 78%;
+    height:6.25rem;
+    margin: 3.67rem 11% 0;
+}
+.fourth img:nth-child(1) {
+    float: left;
+    width: 30%;
+}
+.fourth .service {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1rem;
+    width: 44%;
+    height: 4.17rem;
+    background-color: #47eaf2;
+    border-radius: 5%;
+    text-align: center;
+}
+.fourth .service em:nth-child(1) {
+    display: block;
+    float: left;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0.5rem 0 0;
+    color: #278dbb;
+    font-weight: bold;
+}
+.fourth .service em:nth-child(2) {
+    font-family: 微软雅黑 Bold;
+    font-size: 0.5rem;
+    width: 100%;
+    color: #278dbb;
+    font-weight: bold;
+}
+.fourth .top img:nth-child(3) {
+    float: left;
+    width: 24%;
+    margin-top: 4rem;
+}
+.fourth .article {
+    float: left;
+    width: 84%;
+    height: 9.5rem;
+    margin: 0.88rem 8%;
+}
+.fourth .article img {
+    float: left;
+    width: 8%;
+    margin-bottom: 5rem;
+}
+.fourth .article span {
+    font-family: 微软雅黑 Regular;
+    font-size: 1.13rem;
+    color: #ffdb00;
+}
+.fourth .article em {
+    line-height: 1.5rem;
+    font-family: 微软雅黑 Regular;
+    font-size: 1.09rem;
+    color: white;
+}
+.fourth .hint {
+    float: left;
+    width: 80%;
+    height: 7.92rem;
+    margin: 0.5rem 10%;
+    background-color: #42dcea;
+    border-radius: 5%;
+}
+.fourth .hint div:nth-child(1) {
+    float: left;
+    width: 24%;
+    height: 7.92rem;
+    margin: 1.08rem 0 0 6%;
+    font-family: 微软雅黑 Regular;
+    font-size: 1rem;
+    color: #444f94;
+}
+.fourth .hint div:nth-child(2) {
+    float: left;
+    margin: 1.08rem 0;
+    width: 60%;
+    font-family: 微软雅黑 Regular;
+    font-size: 1rem;
+    color: #444f94;
+}
+.fourth .hint div:nth-child(3), .fourth .hint div:nth-child(4) {
+    float: left;
+    width: 60%;
+    font-family: 微软雅黑 Regular;
+    font-size: 1rem;
+    color: #444f94;
+}
+.fourth .confirm {
+    float: left;
+    width: 84%;
+    height: 5.83rem;
+    margin: 0.88rem 8%;
+}
+.fourth .confirm img {
+    float: left;
+    width: 8%;
+    margin-bottom: 5rem;
+}
+.fourth .confirm em {
+    line-height: 1.5rem;
+    font-family: 微软雅黑 Regular;
+    font-size: 1.09rem;
+    color: white;
+}
+
+/*第五屏*/
+.fifth .top {
+    float: left;
+    width: 78%;
+    height:6.25rem;
+    margin: 1.67rem 11% 0;
+}
+.fifth .service {
+    float: left;
+    margin-left: 2%;
+    margin-top: 2rem;
+    width: 44%;
+    height: 4.17rem;
+    background-color: #47eaf2;
+    border-radius: 5%;
+    text-align: center;
+}
+.fifth .top img:nth-child(1) {
+    float: left;
+    width: 30%;
+    margin-top: 4rem;
+}
+.fifth .service em:nth-child(1) {
+    display: block;
+    float: left;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0.5rem 0 0;
+    color: #278dbb;
+    font-weight: bold;
+}
+.fifth .service em:nth-child(2) {
+    font-family: 微软雅黑 Bold;
+    font-size: 0.5rem;
+    width: 100%;
+    color: #278dbb;
+    font-weight: bold;
+}
+.fifth .top img:nth-child(3) {
+    float: left;
+    width: 24%;
+    margin-top: 2rem;
+}
+.fifth .article .top {
+    float: left;
+    margin: 1rem 11%;
+    width: 78%;
+    height: 7.5rem;
+}
+.fifth .article  em {
+    font-family: 微软雅黑 Regular;
+    font-size: 1.17rem;
+    color: white;
+}
+.fifth .article  span {
+    font-family: 微软雅黑 Regular;
+    font-size: 1.28rem;
+    color: #ffc88b;
+}
+.fifth .article .bottom {
+    float: left;
+    margin: 1rem 11%;
+    width: 78%;
+    height: 5.21rem;
+}
+
+/*第六屏*/
+.sixth .title {
+    float: left;
+    margin-left: 27%;
+    margin-top: 2rem;
+    width: 44%;
+    height: 4.17rem;
+    background-color: #47eaf2;
+    border-radius: 5%;
+    text-align: center;
+}
+.sixth .title h2 {
+    display: block;
+    float: left;
+    font-family: 微软雅黑 Bold;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0.5rem 0 0;
+    color: #278dbb;
+    font-weight: bold;
+}
+.sixth .top {
+    float: left;
+    margin: 2rem 3% 0;
+    width: 94%;
+    height: 10rem;
+    border:2px dashed #47eaf2;
+    border-radius: 3%;
+}
+.sixth .top img {
+    float: left;
+    margin: 1rem 1%;
+}
+.sixth .top em {
+    display: block;
+    float: right;
+    width: 62%;
+    margin: 1rem auto;
+    font-family: 微软雅黑;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+.sixth .bottom {
+    float: left;
+    margin: 2rem 3% 0;
+    width: 94%;
+    height: 13.33rem;
+    border:2px dashed #47eaf2;
+    border-radius: 3%;
+}
+.sixth .bottom img {
+    float: left;
+    margin: 1rem 1%;
+}
+.sixth .bottom em {
+    display: block;
+    float: right;
+    width: 62%;
+    margin: 0.5rem auto;
+    font-family: 微软雅黑;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+.sixth .middle {
+    float: left;
+    width: 100%;
+    height: 2.5rem;
+    margin: 0 50%;
+}
+.sixth .middle img {
+    float: left;
+    width: 6%;
+    margin: 1rem auto;
+}
+
+/*第七屏*/
+.seventh .top {
+    float: left;
+    margin: 5.33rem 3% 1rem;
+    width: 94%;
+    height: 4.42rem; 
+}
+.seventh .top img {
+    float: left;
+    margin: 0 5%;
+}
+.seventh .top h2 {
+    float: left;
+    margin: 1rem 5%;
+    font-family: 微软雅黑;
+    font-size: 1.46rem;
+    color: white; 
+    font-weight: bold;
+}
+.seventh .article {
+    float: left;
+    margin: 1rem 5%;
+    width: 90%;
+    height: 16.67rem;
+    background: rgba(0,0,0,0.2); 
+}
+.seventh .article div {
+    float: left;
+    width: 100%;
+}
+.seventh .article img {
+    float: left;
+    width: 8%;
+    margin: 1rem 5%;
+    background-size: 100% 100%;
+}
+.seventh .article em {
+    display: block;
+    float: left;
+    margin: 1rem 0;
+    width: 80%;
+    font-family: 微软雅黑;
+    font-size: 1rem;
+    color: white; 
+    font-weight: bold;
+}
+.seventh .footer {
+    float: left;
+    margin: 1rem 6%;
+    width: 90%;
+    height: 16.67rem;
+}
+.seventh .footer h2 {
+    float: left;
+    margin: 1rem 1%;
+    font-family: 微软雅黑;
+    font-size: 1.08rem;
+    font-weight: bold;
+    color: white;
+}
+.seventh  .footer em {
+    float: left;
+    line-height: 2rem;
+    font-family: 微软雅黑;
+    color: white;
+}
+
+/*第八屏*/
+.eight .top {
+    float: left;
+    margin: 5.33rem 3% 1rem;
+    width: 94%;
+    height: 4.42rem; 
+}
+.eight .top img {
+    float: left;
+    margin: 0 5%;
+}
+.eight .top h2 {
+    float: left;
+    margin: 1rem 5%;
+    font-family: 微软雅黑;
+    font-size: 1.46rem;
+    color: white; 
+    font-weight: bold;
+}
+.eight .article {
+    float: left;
+    margin: 1rem 5%;
+    width: 90%;
+    height: 16.67rem;
+    background: rgba(0,0,0,0.2); 
+}
+.eight .article th {
+    text-align: center;
+    line-height: 1rem;
+    font-family: 微软雅黑 Regular;
+    font-size: 0.63rem;
+    border: 1px solid white;
+    color: white;
+}
+/*第九屏*/
+.nineth img {
+    float: left;
+    width: 54%;
+    margin: 6.17rem 23% 1rem;
+}
+.nineth em {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+    font-family: 微软雅黑 Regular;
+    color: white;
+}
+.nineth span {
+    font-family: 微软雅黑;
+    font-size: 1.08rem;
+    font-weight: bold;
+    color: #fbe54f;
+}
+.nineth .back {
+    float: left;
+    width: 10%;
+    margin: 5rem 46%;
+}
+.nineth .back a {
+    font-family: 微软雅黑;
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
